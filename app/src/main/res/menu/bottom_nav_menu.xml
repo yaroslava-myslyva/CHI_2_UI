@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/destination_text"
+        android:icon="@drawable/ic_text"
+        android:title="@string/title_text"/>
+
+    <item
+        android:id="@+id/destination_check_box"
+        android:icon="@drawable/ic_check_box"
+        android:title="@string/title_check_box"/>
+
+    <item
+        android:id="@+id/destination_radio_button"
+        android:icon="@drawable/ic_radio_button"
+        android:title="@string/title_radio_button"/>
+
+    <item
+        android:id="@+id/destination_switch"
+        android:icon="@drawable/ic_switch"
+        android:title="@string/title_switch"/>
+</menu>
