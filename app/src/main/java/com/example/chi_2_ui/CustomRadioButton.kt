@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.TableLayout
 
 class CustomRadioButton(context: Context, attrs: AttributeSet? = null) :
+
     TableLayout(context, attrs) {
     init {
         View.inflate(getContext(), R.layout.custom_view, this)
