@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TableLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded">
+
+    <TableRow>
+
+        <RadioButton
+            android:id="@+id/radio_button_upper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_column="1"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:id="@+id/radio_button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_margin="0dp"
+            android:padding="0dp" />
+
+        <RadioButton
+            android:id="@+id/radio_button_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radio_button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:id="@+id/radio_button_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+    </TableRow>
+</TableLayout>
+</merge>

@@ -4,4 +4,6 @@
     <string name="title_check_box">CheckBox</string>
     <string name="title_radio_button">Radio button</string>
     <string name="title_switch">Switch</string>
+    <string name="text_button_text">Who Is Active?</string>
+    <string name="text_tv_up">I am BLUE</string>
 </resources>
