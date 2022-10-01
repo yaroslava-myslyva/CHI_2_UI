@@ -14,11 +14,13 @@
         android:layout_height="wrap_content"
         android:text="@string/text_button_text"
         android:textAllCaps="false"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="normal"
+        android:paddingVertical="15dp"
         app:strokeColor="@color/black"
         app:strokeWidth="5dp"
         app:cornerRadius="10dp"
+        android:paddingHorizontal="25dp"
         android:backgroundTint="@color/button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,8 +34,12 @@
         app:layout_constraintBottom_toTopOf="@+id/text_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="40dp"
+        android:textStyle="bold"
         android:text="@string/text_tv_up"
-        android:textColor="@color/text_tv_up"/>
+        android:textColor="@color/text_tv_up"
+        android:clickable="true"
+        android:focusable="true" />
 
     <TextView
         android:id="@+id/text_tv_down"
@@ -42,8 +48,12 @@
         app:layout_constraintTop_toBottomOf="@+id/text_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/text_tv_up"
-        android:textColor="@color/text_tv_up"/>
+        android:textStyle="bold"
+        android:layout_margin="40dp"
+        android:text="@string/text_tv_down"
+        android:textColor="@color/text_tv_down"
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:id="@+id/text_tv_right"
@@ -52,8 +62,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/text_button"
-        android:text="@string/text_tv_up"
-        android:textColor="@color/text_tv_up"/>
+        android:layout_margin="40dp"
+        android:textStyle="bold"
+        android:text="@string/text_tv_right"
+        android:textColor="@color/text_tv_right"
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:id="@+id/text_tv_left"
@@ -62,7 +76,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/text_button"
-        android:text="@string/text_tv_up"
-        android:textColor="@color/text_tv_up"/>
+        android:textStyle="bold"
+        android:layout_margin="40dp"
+        android:text="@string/text_tv_left"
+        android:textColor="@color/text_tv_left"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

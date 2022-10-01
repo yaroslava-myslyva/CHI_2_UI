@@ -6,4 +6,7 @@
     <string name="title_switch">Switch</string>
     <string name="text_button_text">Who Is Active?</string>
     <string name="text_tv_up">I am BLUE</string>
+    <string name="text_tv_down">I am YELLOW</string>
+    <string name="text_tv_right">I am GREEN</string>
+    <string name="text_tv_left">I am RED</string>
 </resources>
