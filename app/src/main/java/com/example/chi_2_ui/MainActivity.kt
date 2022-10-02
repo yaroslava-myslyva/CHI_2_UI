@@ -8,7 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.chi_2_ui.databinding.ActivityMainBinding
-// checkBox, switch, radio button
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -25,7 +25,10 @@ class MainActivity : AppCompatActivity() {
 
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.destination_text, R.id.destination_check_box, R.id.destination_radio_button, R.id.destination_switch
+                R.id.destination_text,
+                R.id.destination_check_box,
+                R.id.destination_radio_button,
+                R.id.destination_switch
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

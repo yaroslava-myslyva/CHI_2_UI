@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".RadioButtonFragment">
+    tools:context=".ui.RadioButtonFragment">
 
     <com.example.chi_2_ui.CustomRadioButton
+        android:id="@+id/custom_radio_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"

@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/destination_text"
-        android:name="com.example.chi_2_ui.TextFragment"
+        android:name="com.example.chi_2_ui.ui.TextFragment"
         android:label="@string/title_text"
         tools:layout="@layout/fragment_text" />
 
     <fragment
         android:id="@+id/destination_check_box"
-        android:name="com.example.chi_2_ui.CheckBoxFragment"
+        android:name="com.example.chi_2_ui.ui.CheckBoxFragment"
         android:label="@string/title_check_box"
         tools:layout="@layout/fragment_check_box" />
 
     <fragment
         android:id="@+id/destination_radio_button"
-        android:name="com.example.chi_2_ui.RadioButtonFragment"
+        android:name="com.example.chi_2_ui.ui.RadioButtonFragment"
         android:label="@string/title_radio_button"
         tools:layout="@layout/fragment_radio_button" />
 
     <fragment
         android:id="@+id/destination_switch"
-        android:name="com.example.chi_2_ui.SwitchFragment"
+        android:name="com.example.chi_2_ui.ui.SwitchFragment"
         android:label="@string/title_switch"
         tools:layout="@layout/fragment_radio_button" />
 </navigation>

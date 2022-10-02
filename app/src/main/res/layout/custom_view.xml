@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge  xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<merge  xmlns:android="http://schemas.android.com/apk/res/android">
 <TableLayout
 
     android:layout_width="wrap_content"
@@ -12,9 +11,10 @@
 
         <RadioButton
             android:id="@+id/radio_button_upper"
+            android:text="@string/radio_button_upper"
+            android:textSize="0sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
             android:layout_column="1"
             android:layout_margin="0dp"
             android:padding="0dp" />
@@ -24,6 +24,8 @@
 
         <RadioButton
             android:id="@+id/radio_button_left"
+            android:text="@string/radio_button_left"
+            android:textSize="0sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
@@ -32,11 +34,15 @@
 
         <RadioButton
             android:id="@+id/radio_button_center"
+            android:text="@string/radio_button_center"
+            android:textSize="0sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <RadioButton
             android:id="@+id/radio_button_right"
+            android:text="@string/radio_button_right"
+            android:textSize="0sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </TableRow>
@@ -45,6 +51,8 @@
 
         <RadioButton
             android:id="@+id/radio_button_bottom"
+            android:text="@string/radio_button_bottom"
+            android:textSize="0sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1" />

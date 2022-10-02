@@ -9,4 +9,9 @@
     <string name="text_tv_down">I am YELLOW</string>
     <string name="text_tv_right">I am GREEN</string>
     <string name="text_tv_left">I am RED</string>
+    <string name="radio_button_upper">Upper radio button</string>
+    <string name="radio_button_left">Left radio button</string>
+    <string name="radio_button_center">Center radio button</string>
+    <string name="radio_button_right">Right radio button</string>
+    <string name="radio_button_bottom">Bottom radio button</string>
 </resources>
